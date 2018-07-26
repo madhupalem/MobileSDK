@@ -33,7 +33,7 @@ spec.source           = { :git => "https://github.com/madhupalem/MobileSDK.git",
 spec.social_media_url = "http://zoho.com"
 spec.platform     = :ios, '9.0'
 spec.requires_arc = true
-spec.source_files = 'Native/**/*.{h,m,swift}'
+spec.source_files = '*'
 spec.public_header_files = 'Native/**/*.h'
 spec.frameworks       = 'UIKit','Foundation','SystemConfiguration'
 
